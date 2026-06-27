@@ -143,3 +143,42 @@ Each pixel contains the following information:
 
 ---
 
+# Vertical and Horizontal Retrace
+
+After drawing the image, the electron beam must return to continue scanning. This return movement is called **retrace**.
+
+## Horizontal Retrace
+
+**Horizontal Retrace** is the process in which the electron beam **returns to the beginning of the next line** after completing one horizontal scan line.
+
+### Characteristics
+
+- Happens after each horizontal line is drawn.
+- Moves the beam from the **end of one line** to the **start of the next line**.
+- No image is drawn during this movement.
+
+---
+
+## Vertical Retrace
+
+**Vertical Retrace** is the process in which the electron beam **returns to the top-left corner of the screen** after scanning the entire display.
+
+### Characteristics
+
+- Occurs after the whole screen has been scanned.
+- Moves the beam from the **bottom-right corner** back to the **top-left corner**.
+- A new screen refresh begins after the retrace is completed.
+
+
+
+### Summary
+
+| Term | Description |
+|------|-------------|
+| **Raster Display** | A display system that creates images using a grid of pixels. |
+| **Pixel** | The smallest picture element of a display. |
+| **Frame Buffer** | Memory that stores information about every pixel on the screen. |
+| **Horizontal Retrace** | Returns the electron beam to the beginning of the next line. |
+| **Vertical Retrace** | Returns the electron beam to the top-left corner after the entire screen is scanned. |
+
+---
