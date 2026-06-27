@@ -226,7 +226,7 @@ The color displayed depends on the **speed (energy)** of the electron beam.
 - Lower image quality
 
 
-## Colors Produced
+### Colors Produced
 
 The Beam Penetration Method can produce only **four colors**:
 
@@ -237,3 +237,38 @@ The Beam Penetration Method can produce only **four colors**:
 
 ---
 
+## 2. Shadow Mask Method
+
+### Working Principle
+
+The **Shadow Mask Method** uses **three phosphor colors**:
+
+- **Red (R)**
+- **Green (G)**
+- **Blue (B)**
+
+It also uses **three separate electron guns**, one for each color.
+
+A thin metal sheet called the **Shadow Mask** ensures that each electron beam strikes only its matching phosphor dot.
+
+### Color Production
+
+Different combinations of **Red (R)**, **Green (G)**, and **Blue (B)** produce a wide range of colors.
+
+This method can generate **millions of different colors**.
+
+
+### Advantages
+
+- Produces millions of colors
+- Better image quality
+- Higher color accuracy
+- More realistic images
+
+
+### Disadvantages
+
+- More complex design
+- More expensive than the Beam Penetration Method
+
+---
