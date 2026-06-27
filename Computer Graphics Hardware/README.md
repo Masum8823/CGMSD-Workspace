@@ -272,3 +272,31 @@ This method can generate **millions of different colors**.
 - More expensive than the Beam Penetration Method
 
 ---
+
+
+## Beam Penetration vs Shadow Mask Method
+
+| Feature | Beam Penetration Method | Shadow Mask Method |
+|---------|--------------------------|--------------------|
+| **Phosphors Used** | Red and Green | Red, Green, and Blue (RGB) |
+| **Electron Guns** | One electron gun | Three electron guns |
+| **Number of Colors** | Only a few colors (4) | Millions of colors |
+| **Image Quality** | Lower | Higher |
+| **Cost** | Less expensive | More expensive |
+| **Common Use** | Random Scan Displays | Color CRT Monitors |
+
+
+### Conclusion
+
+The **Shadow Mask Method** is the most widely used technique in **color CRT monitors** because it produces **millions of colors**, offers **better image quality**, and provides **more accurate color reproduction** than the Beam Penetration Method.
+
+
+### Summary
+
+| Method | Phosphors Used | Colors Produced | Image Quality | Cost |
+|---------|----------------|-----------------|---------------|------|
+| **Beam Penetration** | Red, Green | 4 Colors (Red, Green, Orange, Yellow) | Lower | Low |
+| **Shadow Mask** | Red, Green, Blue (RGB) | Millions of Colors | Higher | High |
+
+---
+
