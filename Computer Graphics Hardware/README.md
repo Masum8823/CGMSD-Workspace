@@ -36,8 +36,79 @@ The CRT operates through the following steps:
 7. The electron beam strikes the **phosphor screen**.
 8. The phosphor emits light, producing the required image.
 
-# Summary
+### Summary
 
 A **Cathode Ray Tube (CRT)** converts electrical signals into visible images by generating and controlling an electron beam. Different components inside the CRT work together to accelerate, focus, and direct the beam toward the phosphor-coated screen, where light is produced to display images.
+
+---
+
+# Fluorescence, Phosphorescence and Persistence
+
+## Overview
+
+These are important properties of the **phosphor coating** inside a **Cathode Ray Tube (CRT)**. They determine how the screen produces and maintains visible images.
+
+---
+
+## Fluorescence
+
+**Fluorescence** is the light produced by the phosphor **while the electron beam is striking the screen**.
+
+### Characteristics
+
+- Appears instantly when the electron beam hits the phosphor.
+- Lasts for **less than 1 millisecond**.
+- Produces the immediate visible image on the screen.
+
+---
+
+## Phosphorescence
+
+**Phosphorescence** is the light that **remains after the electron beam stops striking the screen**.
+
+### Characteristics
+
+- Continues glowing even after the electron beam is removed.
+- Gradually fades away.
+- Usually lasts for **15–20 milliseconds**.
+
+---
+
+## Persistence
+
+**Persistence** is the **time required for the phosphor's brightness to decrease to 10% of its original intensity after the electron beam is removed.**
+
+### Types of Persistence
+
+| Type | Description |
+|------|-------------|
+| **High Persistence** | The light remains visible for a longer time, resulting in **less flicker** and allowing a **lower refresh rate**. |
+| **Low Persistence** | The light fades quickly, causing **more flicker** and requiring a **higher refresh rate**. |
+
+---
+
+## Flicker
+
+**Flicker** is the visible **blinking or flashing effect** on the screen that occurs when the **refresh rate is too low**.
+
+### Cause
+
+- Low refresh rate
+- Fast fading of phosphor light (low persistence)
+
+### Solution
+
+- Increase the refresh rate.
+- Use a phosphor with higher persistence.
+
+
+### Summary
+
+| Term | Definition | Duration |
+|------|------------|----------|
+| **Fluorescence** | Light produced while the electron beam is hitting the phosphor. | Less than **1 ms** |
+| **Phosphorescence** | Light that remains after the electron beam is removed. | About **15–20 ms** |
+| **Persistence** | Time taken for brightness to fall to **10%** after the beam is removed. | Depends on the phosphor material |
+| **Flicker** | Blinking effect caused by a low refresh rate. | Occurs when refresh rate is insufficient |
 
 ---
