@@ -182,3 +182,58 @@ After drawing the image, the electron beam must return to continue scanning. Thi
 | **Vertical Retrace** | Returns the electron beam to the top-left corner after the entire screen is scanned. |
 
 ---
+# Color CRT Monitors
+
+## Overview
+
+**Color CRT (Cathode Ray Tube) Monitors** use special techniques to produce different colors on the screen. There are **two main methods** used in color CRT displays:
+
+1. **Beam Penetration Method**
+2. **Shadow Mask Method**
+
+---
+
+## 1. Beam Penetration Method
+
+### Working Principle
+
+The **Beam Penetration Method** uses **two layers of phosphor** inside the CRT screen:
+
+- **Red**
+- **Green**
+
+The color displayed depends on the **speed (energy)** of the electron beam.
+
+
+### Color Production
+
+| Electron Beam Speed | Color Produced |
+|---------------------|----------------|
+| **Low Speed** | Red |
+| **Medium Speed** | Orange or Yellow |
+| **High Speed** | Green |
+
+### Advantages
+
+- Simple design
+- Less expensive
+- Easy to manufacture
+
+
+### Disadvantages
+
+- Produces only a limited number of colors
+- Lower image quality
+
+
+## Colors Produced
+
+The Beam Penetration Method can produce only **four colors**:
+
+- Red
+- Green
+- Orange
+- Yellow
+
+---
+
