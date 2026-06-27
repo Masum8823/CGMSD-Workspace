@@ -112,3 +112,34 @@ These are important properties of the **phosphor coating** inside a **Cathode Ra
 | **Flicker** | Blinking effect caused by a low refresh rate. | Occurs when refresh rate is insufficient |
 
 ---
+
+# Raster Display
+
+## Overview
+
+A **Raster Display** is a display system where the screen is divided into many small picture elements called **pixels (or pels)**. Images are created by controlling the brightness of these pixels.
+
+
+## Main Features
+
+- The screen is made up of **thousands or millions of pixels**.
+- Information about every pixel is stored in a **frame buffer memory**.
+- Pixels are represented using **binary values**:
+  - **1 = ON**
+  - **0 = OFF**
+- Images are formed by arranging pixels in **rows and columns**.
+- The display scans the screen **line by line**, starting from the **top-left corner** and moving to the **bottom-right corner**.
+
+---
+
+## Pixel Representation
+
+Each pixel contains the following information:
+
+| Property | Description |
+|----------|-------------|
+| **Coordinates (x, y)** | Specifies the pixel's position on the screen. |
+| **Intensity Value** | Determines the brightness of the pixel. |
+
+---
+
